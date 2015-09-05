@@ -1,0 +1,34 @@
+h1{
+   color: blue;
+  }
+h2{
+   font-size: 14px;
+  }
+p.start{
+   color:yellow;
+   font-size: 12px;
+   background-color: black;
+   width: 600px;
+   text-indent:20px;
+ }
+img{
+    border: red 2px solid;
+}
+p.text-indent{ text-indent:50px;}
+h2 {text-transform: uppercase;}
+p.text-transform {text-transform: none;}
+p.uppercase {text-transform: uppercase;}
+p.lowercase {text-transform: lowercase;}
+p.capitalize {text-transform: capitalize;}
+p.inherit {text-transform: inherit;}
+p.left {text-align: left;}
+p.right {text-align: right;}
+p.center{text-align: center;}
+p.justify{text-align: justify;}
+p.spread {word-spacing: 60px;}
+p.tight {word-spacing: -0.5em;}
+p.text-decoration{text-decoration: none}
+p.overline{text-decoration: overline}
+p.line-through {text-decoration: line-through}
+p.underline{text-decoration: underline}
+p.blink{text-decoration:blink}

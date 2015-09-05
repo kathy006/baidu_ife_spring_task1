@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>css练习</title>
+      <link type="text/css" rel="stylesheet" href="task0001.css">
+  </head>
+  <body>
+  <h2>text-indent</h2>
+     <p class="text-indent">
+      text-indent 属性规定文本块中首行文本的缩进。
+  注释：允许使用负值。如果使用负值，那么首行会被缩进到左边。
+  注意：在 CSS 2.1 之前，text-indent 总是继承计算值，而不是声明值。
+  说明:用于定义块级元素中第一个内容行的缩进。这最常用于建立一个“标签页”效果。允许指定负值，这会产生一种“悬挂缩进”的效果。
+   </p>
+<h2>text-transform</h2>
+  <p class="text-transform">
+    定义和用法
+  text-transform 属性控制文本的大小写。
+  说明:这个属性会改变元素中的字母大小写，而不论源文档中文本的大小写。如果值为 capitalize，则要对某些字母大写，但是并没有明确定义如何确定哪些字母要大写，这取决于用户代理如何识别出各个“词”。
+  </p>
+  <p class="capitalize">
+    capitalize:文本中的每个单词以大写字母开头。
+    </p>
+    <p class="uppercase">
+    uppercase:定义仅有大写字母。
+    </p>
+    <p class="lowercase">
+    lowercase:定义无大写字母，仅有小写字母。
+    </p>
+  <p class="inherit">
+      inherit:规定应该从父元素继承 text-transform 属性的值。
+    </p>
+ <h2>text-align</h2>
+  <p class="text-align ">
+    text-align 属性规定元素中的文本的水平对齐方式。
+    该属性通过指定行框与哪个点对齐，从而设置块级元素内文本的水平对齐方式。通过允许用户代理调整行内容中字母和字之间的间隔，可以支持值 justify；不同用户代理可能会得到不同的结果。
+  </p>
+<p class="left">
+  left:把文本排列到左边。默认值：由浏览器决定。
+  </p>
+<p class="right">
+  right:把文本排列到右边。
+</p>
+<p class="center">
+  center:把文本排列到中间。
+</p>
+<p class="justify">
+  justify:实现两端对齐文本效果。值 justify
+最后一个水平对齐属性是 justify，它会带来自己的一些问题。
+值 justify 可以使文本的两端都对齐。在两端对齐文本中，文本行的左右两端都放在父元素的内边界上。然后，调整单词和字母间的间隔，使各行的长度恰好相等。您也许已经注意到了，两端对齐文本在打印领域很常见。不过在 CSS 中，还需要多做些考虑。
+要由用户代理（而不是 CSS）来确定两端对齐文本如何拉伸，以填满父元素左右边界之间的空间。例如，有些浏览器可能只在单词之间增加额外的空间，而另外一些浏览器可能会平均分布字母间的额外空间（不过 CSS 规范特别指出，如果 letter-spacing 属性指定为一个长度值，“用户代理不能进一步增加或减少字符间的空间”）。还有一些用户代理可能会减少某些行的空间，使文本挤得更紧密。所有这些做法都会影响元素的外观，甚至改变其高度，这取决于用户代理的对齐选择影响了多少文本行。
+CSS 也没有指定应当如何处理连字符（注1）。大多数两端对齐文本都使用连字符将长单词分开放在两行上，从而缩小单词之间的间隔，改善文本行的外观。不过，由于 CSS 没有定义连字符行为，用户代理不太可能自动加连字符。因此，在 CSS 中，两端对齐文本看上去没有打印出来好看，特别是元素可能太窄，以至于每行只能放下几个单词。当然，使用窄设计元素是可以的，不过要当心相应的缺点。
+注1：CSS 中没有说明如何处理连字符，因为不同的语言有不同的连字符规则。规范没有尝试去调和这样一些很可能不完备的规则，而是干脆不提这个问题。
+  </p>
+<h2>word-spacing</h2>
+  <p class="word-spacing ">
+  word-spacing属性增加或减少单词间的空白（即字间隔）。
+该属性定义元素中字之间插入多少空白符。针对这个属性，“字” 定义为由空白符包围的一个字符串。如果指定为长度值，会调整字之间的通常间隔；所以，normal 就等同于设置为 0。允许指定负长度值，这会让字之间挤得更紧。
+注释：允许使用负值。
+  </p>
+<p class="spread">
+  normal:默认。定义单词间的标准空间。This is some text for 30px.
+    </p>
+<p class="tight">
+length:定义单词间的固定空间。This is some text for -0.5em.
+  </p>
+<h2> text-decoration</h2>
+<p class="text-decoration ">
+  text-decoration 属性规定添加到文本的修饰。
+  注释：修饰的颜色由 "color" 属性设置。
+  说明
+  这个属性允许对文本设置某种效果，如加下划线。如果后代元素没有自己的装饰，祖先元素上设置的装饰会“延伸”到后代元素中。不要求用户代理支持 blink。
+  </p>
+<p class="underline">
+  underline:定义文本下的一条线。
+  </p>
+<p class="overline">
+overline:定义文本上的一条线。
+</p>
+<p class="line-through">
+line-through:定义穿过文本下的一条线。
+</p>
+<p class="blink">
+blink:定义闪烁的文本。
+</p>
+  </body>
+</html>
