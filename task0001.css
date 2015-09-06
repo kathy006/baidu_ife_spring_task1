@@ -44,3 +44,9 @@ p.font{font-family:Arial,Verdana,Sans-serif;
        font-weight: 600;
        font-variant:small-caps;
        }
+ @font-face{
+            font-family:"Emblema One";
+            src:url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+            url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+        }
+p.font-face{font-family:"Emblema One";}
