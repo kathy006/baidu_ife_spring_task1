@@ -38,3 +38,9 @@ p.nowrap{white-space:nowrap;}
 p.pre-wrap{white-space:pre-wrap;}
 p.pre-line{white-space:pre-line;}
 p.line-height{line-height:1.5}
+p.font{font-family:Arial,Verdana,Sans-serif;
+       font-style: italic;
+       font-size: 16px;
+       font-weight: 600;
+       font-variant:small-caps;
+       }
