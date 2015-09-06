@@ -27,8 +27,13 @@ p.center{text-align: center;}
 p.justify{text-align: justify;}
 p.spread {word-spacing: 60px;}
 p.tight {word-spacing: -0.5em;}
-p.text-decoration{text-decoration: none}
-p.overline{text-decoration: overline}
-p.line-through {text-decoration: line-through}
-p.underline{text-decoration: underline}
-p.blink{text-decoration:blink}
+p.text-decoration{text-decoration: none;}
+p.overline{text-decoration: overline;}
+p.line-through {text-decoration: line-through;}
+p.underline{text-decoration: underline;}
+p.blink{text-decoration:blink;}
+p.white-space{white-space:normal;}
+p.pre{white-space:pre;}
+p.nowrap{white-space:nowrap;}
+p.pre-wrap{white-space:pre-wrap;}
+p.pre-line{white-space:pre-line;}
