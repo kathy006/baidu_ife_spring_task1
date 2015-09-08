@@ -10,7 +10,9 @@ p.start{
    background-color: black;
    width: 600px;
    text-indent:20px;
- }
+   }
+#star{position: fixed;
+      left:30%;}
 img{
     border: red 2px solid;
 }
