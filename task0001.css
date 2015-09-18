@@ -11,8 +11,9 @@ p.start{
    width: 600px;
    text-indent:20px;
    }
-#star{position: fixed;
-      left:30%;}
+#star{width:600px;
+      margin: auto;
+      background-color: red;}
 img{
     border: red 2px solid;
 }
@@ -52,3 +53,82 @@ p.font{font-family:Arial,Verdana,Sans-serif;
             url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
         }
 p.font-face{font-family:"Emblema One";}
+strong { color: red; }
+.carrot { color: orange; }
+.spinach { color: green; }
+#first { font-style: italic;}
+#second,#first{color: blue;}
+#xiegang{background: url("Blue-rule.png");}
+strong.carrot:before{content:" " url("Yellow-pin.png") no-repeat;}
+/* numbered paragraphs */
+h3.numbered {counter-reset: mynum;}
+
+p.numbered:before {
+  content: counter(mynum) ": ";
+  counter-increment: mynum;/*counter:计数器,计数器是粗体，但列表不是。counter-increment 属性为你的计数器名*/
+  font-weight: bold;
+}
+ul,#numbered{ border: lightblue 1em solid;
+              padding-right: 0.5em;
+               padding-left: 2em;
+               float: left;
+            }
+ul{margin-right: 2em;
+   margin-left: 1em;}
+#oceans{counter-reset: mynu;}
+h3:before{content: "("counter(mynu,upper-latin) ")";  /*upper-latin:大写字母，括号是用引号括起来引用*/
+  counter-increment: mynu;
+  font-weight: bold;
+  clear: left;
+  }
+h3{border-top: 1px solid gray;
+   text-align: left;}
+li {
+  list-style: lower-roman;
+  margin-bottom: 8px;
+  }
+  #parent-div {
+  position: relative;
+  font: bold 200% sans-serif;
+}
+
+#forward, #back {
+  position: absolute;
+  margin:0px; /* no margin around the elements */
+  top: 0px; /* distance from top */
+  left: 0px; /* distance from left */
+}
+
+#forward {
+  color: blue;
+}
+
+#back {
+  color: red;
+}
+#fixed-pin{position: absolute;
+  margin:0px;
+  top: 0px;
+  right: 0px;
+  border: none;}
+a.homepage:link, a.homepage:visited {
+  padding: 1px 10px 1px 10px;
+  color: #fff;
+  background: #555;
+  border-radius: 3px;
+  border: 1px outset rgba(50,50,50,.5);/*outset是一种边框样式，rgb表示颜色，a表示透明度为0.5*/
+  font-family: georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  text-decoration: none;
+}
+a.homepage:hover, a.homepage:focus, a.homepage:active {
+  background-color: #666;
+  div.menu-bar ul ul {
+    display: none;
+  }
+
+  div.menu-bar li:hover > ul {
+    display: block;
+  }
+div.menu-bar{border: none;}
