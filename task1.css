@@ -35,7 +35,25 @@ p.p1{font-size: 12px;
      line-height: 150%;
 
     }
-h1{font-size: 14px;}
+h1{font-size: 14px;
+   text-align: right;}
 #body1wen{background-color: white;
           padding: 10px 10px 30px 10px;
-           width:300px;}
+           width:300px;
+         position: absolute;
+         right: 10px;
+         top: 720px;
+         }
+#tableContainer {
+         	display: table;
+         	border-spacing: 10px;/*border-spacing 属性设置相邻单元格的边框间的距离（仅用于“边框分离”模式）。*/
+         }
+#tableRow {
+         	display: table-row;/*作为一个或多个行的分组来显示*/
+         }
+
+section#first,section#second,section#three{width:320px;
+                  background-color: white;
+                  line-height: 170%;
+                  font-size: 12px;
+                  vertical-align: top;}
