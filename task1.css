@@ -83,4 +83,17 @@ section#three {
 #main{background-color: white;
       margin: auto;
 		  text-align: center;}
-#my{width:40%;}
+#my{width:600px;
+    margin: auto;
+		text-align: justify;
+		font:14px black;
+}
+h2{text-align: center;
+   font: 20px black "Century Gothic";}
+#yuan{width: 160px;
+      height: 160px;
+		  border-radius: 50%;
+		  background-image: url(img2.png) ;
+		  margin: auto;
+		  position: relative;
+		  top:-50px;}
