@@ -47,13 +47,40 @@ h1{font-size: 14px;
 #tableContainer {
          	display: table;
          	border-spacing: 10px;/*border-spacing 属性设置相邻单元格的边框间的距离（仅用于“边框分离”模式）。*/
-         }
+          margin: auto;
+					background-color: #efe5d0;
+					padding: 10px 60px 60px 60px;
+				 }
 #tableRow {
          	display: table-row;/*作为一个或多个行的分组来显示*/
          }
 
-section#first,section#second,section#three{width:320px;
+section#first,section#second,section#three{width: 33%;
                   background-color: white;
                   line-height: 170%;
                   font-size: 12px;
-                  vertical-align: top;}
+                 }
+section#first{
+								display: table-cell;
+							  background-color: white;
+							  width: 33%;
+								padding: 15px;
+							  vertical-align: top;
+									}
+section#second {
+               display: table-cell;
+
+               padding:  15px;
+              vertical-align: top;
+              }
+section#three {
+               display: table-cell;
+
+               padding:15px;
+               vertical-align: top;
+               }
+#img1,#img2,#img3{width:100%;}
+#main{background-color: white;
+      margin: auto;
+		  text-align: center;}
+#my{width:40%;}
