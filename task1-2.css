@@ -6,13 +6,13 @@ header.top {
 }
 #top1{width: 980px;
 	    position: absolute;
-				left:150px;
+			left:150px;
       }
 #github{
-  position: absolute;
+    position: absolute;
   	bottom: 0px;
   	right:20px;
-}
+      }
 nav{
    font-family: "宋体";
    font-size: 14px;
@@ -20,14 +20,14 @@ nav{
    position: absolute;
 	 right:0px;
 	 bottom: 33px;
-
 	 }
 nav li{
      display: inline;
      padding:5px 14px 5px 14px;
      }
 nav li a:link,nav li a:visited{
-      color:white;
-      border-bottom:none;
+     color:white;
+     border-bottom:none;
      font-weight:bold;
      text-decoration: none;}
+#zhuti{background-color: #efe5d0;}
