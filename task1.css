@@ -97,3 +97,44 @@ h2{text-align: center;
 		  margin: auto;
 		  position: relative;
 		  top:-50px;}
+#foot{background-color: black;
+	    color: white;
+
+     }
+#footer{margin: auto;
+       border-bottom: solid 1px gray;
+		   text-align: center;
+		   padding-top:5px; }
+a{ text-decoration: none;
+  }
+a:hover{ text-decoration: underline;
+  }
+a:link{color: white;}
+a:visited{color:white;}
+#abcde{display: table;
+        border-spacing: 10px;
+			  }
+#abcderow{	display: table-row;}
+section#a{display: table-cell;
+   vertical-align: top;
+  width: 20%;
+  padding: 15px;}
+section#b{display: table-cell;
+	  vertical-align: top;
+width: 20%;
+padding: 15px;}
+section#c{display: table-cell;
+   vertical-align: top;
+  width: 20%;
+padding: 15px;}
+section#d{display: table-cell;
+	 vertical-align: top;
+  width: 20%;
+padding: 15px;}
+section#e{display: table-cell;
+	 vertical-align: top;
+  width: 20%;
+padding: 15px;}
+ul{list-style-type: none;}
+h1{text-align: center;}
+#f{margin: auto;}
