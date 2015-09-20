@@ -1,8 +1,9 @@
 header.top {
 	background-color: rgb(51, 0, 65);;
-	margin: 10px 10px 0px 10px;
 	height:           80px;
 }
+#top1{position: absolute;
+      left:150px;}
 #github{
   position: absolute;
   	top: 56px;
@@ -12,19 +13,21 @@ nav{
    font-family: "宋体";
    font-size: 14px;
    list-style-type: none;
-   position:absolute;
-   top: 60px;
-   right:55px;
-  }
+	 width: 150px;
+   position:relative;
+   top: 55px;
+   left:980px;
+	 }
 nav li{
      display: inline;
-     padding:5px 10px 5px 10px;
+     padding:5px 14px 5px 14px;
      }
 nav li a:link,nav li a:visited{
       color:white;
       border-bottom:none;
       font-weight:bold;
       }
+
 div.body1{
   background-image: url(banner-bg.jpg);
           height:868px;
@@ -35,9 +38,9 @@ p.p1{font-size: 12px;
      line-height: 150%;
 
     }
-h1{font-size: 14px;
+h1#biaoti1{font-size: 14px;
    text-align: right;}
-#body1wen{background-color: white;
+#body1wen{background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));
           padding: 10px 10px 30px 10px;
            width:300px;
          position: absolute;
@@ -84,7 +87,7 @@ section#three {
       margin: auto;
 		  text-align: center;}
 #my{width:600px;
-    margin: auto;
+    margin: auto auto 80px auto;
 		text-align: justify;
 		font:14px black;
 }
@@ -105,6 +108,7 @@ h2{text-align: center;
        border-bottom: solid 1px gray;
 		   text-align: center;
 		   padding-top:5px; }
+
 a{ text-decoration: none;
   }
 a:hover{ text-decoration: underline;
@@ -115,26 +119,15 @@ a:visited{color:white;}
         border-spacing: 10px;
 			  }
 #abcderow{	display: table-row;}
-section#a{display: table-cell;
+section#a,section#b,section#c,section#d,section#e{display: table-cell;
    vertical-align: top;
-  width: 20%;
-  padding: 15px;}
-section#b{display: table-cell;
-	  vertical-align: top;
-width: 20%;
-padding: 15px;}
-section#c{display: table-cell;
-   vertical-align: top;
-  width: 20%;
-padding: 15px;}
-section#d{display: table-cell;
-	 vertical-align: top;
-  width: 20%;
-padding: 15px;}
-section#e{display: table-cell;
-	 vertical-align: top;
-  width: 20%;
-padding: 15px;}
+  width: 22%;
+  padding: 15px;
+  text-align: left;}
+h1#banquan{text-align: center;
+           margin-top: 80px;}
 ul{list-style-type: none;}
-h1{text-align: center;}
-#f{margin: auto;}
+h1{text-align: left;
+   font-size: 14px;}
+#mao{text-align: center;
+     margin: 25px auto 0px auto;}
