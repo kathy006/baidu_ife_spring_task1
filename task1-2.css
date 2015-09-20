@@ -1,0 +1,33 @@
+header.top {
+	background-color: rgb(51, 0, 65);;
+	height:           80px;
+	position: relative;
+
+}
+#top1{width: 980px;
+	    position: absolute;
+				left:150px;
+      }
+#github{
+  position: absolute;
+  	bottom: 0px;
+  	right:20px;
+}
+nav{
+   font-family: "宋体";
+   font-size: 14px;
+   list-style-type: none;
+   position: absolute;
+	 right:0px;
+	 bottom: 33px;
+
+	 }
+nav li{
+     display: inline;
+     padding:5px 14px 5px 14px;
+     }
+nav li a:link,nav li a:visited{
+      color:white;
+      border-bottom:none;
+     font-weight:bold;
+     text-decoration: none;}

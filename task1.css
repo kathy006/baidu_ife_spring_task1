@@ -1,22 +1,26 @@
 header.top {
 	background-color: rgb(51, 0, 65);;
 	height:           80px;
+	position: relative;
+
 }
-#top1{position: absolute;
-      left:150px;}
+#top1{width: 980px;
+	    position: absolute;
+				left:150px;
+      }
 #github{
   position: absolute;
-  	top: 56px;
+  	bottom: 0px;
   	right:20px;
 }
 nav{
    font-family: "宋体";
    font-size: 14px;
    list-style-type: none;
-	 width: 150px;
-   position:relative;
-   top: 55px;
-   left:980px;
+   position: absolute;
+	 right:0px;
+	 bottom: 33px;
+
 	 }
 nav li{
      display: inline;
@@ -40,7 +44,8 @@ p.p1{font-size: 12px;
     }
 h1#biaoti1{font-size: 14px;
    text-align: right;}
-#body1wen{background: linear-gradient(rgba(255,255,255,0.7), rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));
+#body1wen{background: linear-gradient(rgba(255,255,255,0.7),
+	        rgba(255,255,255,0.5) 75%, rgba(255,255,255,0));/*渐变透明度*/
           padding: 10px 10px 30px 10px;
            width:300px;
          position: absolute;
