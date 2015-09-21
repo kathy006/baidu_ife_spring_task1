@@ -1,5 +1,5 @@
 header.top {
-	background-color: rgb(51, 0, 65);;
+	background-color: rgb(51, 0, 65);
 	height:           80px;
 	position: relative;
 
@@ -30,4 +30,103 @@ nav li a:link,nav li a:visited{
      border-bottom:none;
      font-weight:bold;
      text-decoration: none;}
-#zhuti{background-color: #efe5d0;}
+#zhuti{width:1130px;
+	     background-color: #efe5d0;
+       }
+#blog1{position: relative;
+       }
+#blog1-1{width: 70px;
+         height:40px;
+			   background-color: rgb(51, 0, 65);
+			   color:white;
+			   text-align: center;
+			   font-size: 20px;
+				 position: absolute;
+				 left:80px;
+				 top:20px;
+			  }
+#blog1-2{width: 70px;
+				 height:40px;
+				 background-color: rgb(186, 101, 186);
+				 color:white;
+				 text-align: center;
+				 font-size: 20px;
+				 position: absolute;
+				 left:80px;
+			   top:60px;}
+#blog1-3{width:900px;
+	      background-color: white;
+				position: absolute;
+				left:150px;
+				top:30px;
+				margin: 5px 10px 10px 10px;
+         }
+h1{font-size:16px;
+   color: rgb(186, 101, 186);}
+h2{font-size:12px;
+   color:  #666;}
+p{text-indent: 2em;
+  font-size: 14px;
+  line-height: 1.5em;
+  margin: 0px;}
+p.fabiao{text-align: right;
+         font-size: 12px;
+			   color:gray;}
+#blog2{position: relative;
+	    top:400px;
+			 }
+#blog2-1{width: 70px;
+				 height:40px;
+				background-color: rgb(51, 0, 65);
+				color:white;
+				text-align: center;
+				font-size: 20px;
+				position: absolute;
+				left:80px;
+				top:20px;
+			 }
+#blog2-2{width: 70px;
+				height:40px;
+				background-color: rgb(186, 101, 186);
+				color:white;
+				text-align: center;
+				font-size: 20px;
+				position: absolute;
+				left:80px;
+				top:60px;}
+#blog2-3{width:900px;
+			 background-color: white;
+			 position: absolute;
+			 left:150px;
+			 top:30px;
+			 margin: 5px 10px 10px 10px;
+				 }
+#blog3{position: relative;
+	    top:800px;
+			 }
+#blog3-1{width: 70px;
+				 height:40px;
+				background-color: rgb(51, 0, 65);
+				color:white;
+				text-align: center;
+				font-size: 20px;
+				position: absolute;
+				left:80px;
+				top:20px;
+			 }
+#blog3-2{width: 70px;
+				height:40px;
+				background-color: rgb(186, 101, 186);
+				color:white;
+				text-align: center;
+				font-size: 20px;
+				position: absolute;
+				left:80px;
+				top:60px;}
+#blog3-3{width:900px;
+			 background-color: white;
+			 position: absolute;
+			 left:150px;
+			 top:30px;
+			 margin: 5px 10px 10px 10px;
+				 }
