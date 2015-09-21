@@ -30,7 +30,8 @@ nav li a:link,nav li a:visited{
      border-bottom:none;
      font-weight:bold;
      text-decoration: none;}
-#zhuti{width:1130px;
+body{height: 100%;
+	   width: 100%;
 	     background-color: #efe5d0;
        }
 #blog1{position: relative;
@@ -59,7 +60,7 @@ nav li a:link,nav li a:visited{
 				position: absolute;
 				left:150px;
 				top:30px;
-				margin: 5px 10px 10px 10px;
+				padding: 10px 20px 20px 20px;
          }
 h1{font-size:16px;
    color: rgb(186, 101, 186);}
@@ -99,7 +100,7 @@ p.fabiao{text-align: right;
 			 position: absolute;
 			 left:150px;
 			 top:30px;
-			 margin: 5px 10px 10px 10px;
+			 padding: 10px 20px 20px 20px;
 				 }
 #blog3{position: relative;
 	    top:800px;
@@ -128,5 +129,9 @@ p.fabiao{text-align: right;
 			 position: absolute;
 			 left:150px;
 			 top:30px;
-			 margin: 5px 10px 10px 10px;
+			 padding:10px 20px 20px 20px;
 				 }
+#yema{position: absolute;
+      top:1280px;
+		  text-align: center;}
+#yema a{}
