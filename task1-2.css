@@ -32,15 +32,13 @@ nav li a:link,nav li a:visited{
      text-decoration: none;}
 body{height: 100%;
 	   width: 100%;
-	     background-color: #efe5d0;
+	   background-color: #efe5d0;
        }
 #blog1{position: relative;
        }
 .blog1-1{width: 70px;
          height:40px;
 			   background-color: rgb(51, 0, 65);
-
-
 				 position: absolute;
 				 left:80px;
 				 top:50px;
@@ -87,15 +85,25 @@ p.fabiao{text-align: right;
 			 }
 #blog3{position: relative;
 	          top:800px;}
-table{position: absolute;
+#table{position: absolute;
       top:1320px;
 		  border-spacing: 10px;}
-th{padding: 15px;
+#table th{padding: 15px;
    background-color: white;
    }
-table >a:link{color: black;}
+#table a:link{color: black;}
 #yema{width: 960px;
 		  margin: auto;}
+button{width: 40px;
+       height: 40px;
+		   font-size: 16px;
+		   }
+#search{background-color: white;
+        width: 230px;
+				height: 50px;}
+#mulu{background-color: white;
+		  width: 230px;}
+#mulu table{border-spacing: 20px;}
 #foot{background-color: black;
 	    color: white;
       position: absolute;
